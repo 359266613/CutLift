@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>title</key><string>轻抠</string>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>基本设置</string>
+            <key>footerText</key><string>开启后在「照片」「信息」「Safari」「微信」「抖音」中长按图片即可抠图。</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>label</key><string>启用插件</string>
+            <key>key</key><string>enabled</string>
+            <key>defaults</key><string>com.axs.cutlift</string>
+            <key>default</key><false/>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>触发方式</string>
+            <key>footerText</key><string>双指长按不会与 App 自身的单指长按菜单冲突，建议保持开启。</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>label</key><string>双指长按</string>
+            <key>key</key><string>twoFinger</string>
+            <key>defaults</key><string>com.axs.cutlift</string>
+            <key>default</key><true/>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>抠图质量</string>
+            <key>footerText</key><string>iOS 16 只能识别人像；识别人像失败时会自动回退为显著物体检测。</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>label</key><string>高精度人像</string>
+            <key>key</key><string>accurate</string>
+            <key>defaults</key><string>com.axs.cutlift</string>
+            <key>default</key><true/>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSTitleValueCell</string>
+            <key>cellClass</key><string>AxsCutLiftSliderCell</string>
+            <key>label</key><string>边缘羽化</string>
+            <key>key</key><string>feather</string>
+            <key>defaults</key><string>com.axs.cutlift</string>
+            <key>default</key><real>2.0</real>
+            <key>min</key><real>0.0</real>
+            <key>max</key><real>6.0</real>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>label</key><string>裁剪到主体</string>
+            <key>key</key><string>trim</string>
+            <key>defaults</key><string>com.axs.cutlift</string>
+            <key>default</key><true/>
+        </dict>
+    </array>
+</dict>
+</plist>

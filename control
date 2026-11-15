@@ -1,0 +1,11 @@
+Package: com.axs.cutlift
+Name: 轻抠
+Version: 5.2.0
+Architecture: iphoneos-arm
+Description: 在照片、信息、Safari、微信、抖音中双指长按任意图片，一键抠出透明底主体，支持羽化与自动裁边。
+Maintainer: Axs
+Author: Axs
+Section: Axs-Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/cutlift.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cutlift/js.json

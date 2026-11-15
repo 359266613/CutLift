@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "CutLift",
+  "id": "cutlift",
+  "display_name": "轻抠",
+  "class_prefix": "AxsCutLift",
+  "symbol_prefix": "axs_cutlift",
+  "package": "com.axs.cutlift",
+  "bundle": "com.apple.mobileslideshow",
+  "sdk_version": "16.5",
+  "minimum_ios": "15.0",
+  "preferences": true,
+  "slider": true,
+  "github_actions": true
+}
